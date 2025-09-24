@@ -1,10 +1,14 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Heading from "./components/Heading"
 
 function App() {
+  const company = "Functo";
+
   return (
     <>
-    <Navbar />
+      <Navbar companyName={company} />
+      <Heading />
     </>
   );
 }

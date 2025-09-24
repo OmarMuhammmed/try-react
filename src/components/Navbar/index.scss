@@ -1,11 +1,13 @@
-.nav-bar-list {
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #333;
-  :hover {
-    color: #007bff;
+/* index.scss */
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  li {
+    font-size: 20px;
+    color: red;
   }
 }
